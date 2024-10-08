@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Course API with Enhanced UI</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Management</h1>
+        <h2>Add a New Course</h2>
+        <form id="courseForm">
+            <input type="text" id="courseTitle" placeholder="Course Title" required>
+            <textarea id="courseDescription" placeholder="Course Description" rows="4" required></textarea>
+            <input type="text" id="courseDuration" placeholder="Duration (e.g., 8 weeks)" required>
+            <button type="submit">Add Course</button>
+        </form>
+
+        <h2>Available Courses</h2>
+        <div id="courseList" class="course-list"></div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
